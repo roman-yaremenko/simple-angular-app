@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-entities-dashboard',
   templateUrl: './entities-dashboard.component.html',
