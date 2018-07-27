@@ -10,39 +10,30 @@
 		box-shadow: none;
 	}
 
+	&.app-mini-fab--transparent {
+		margin-left: 15px;
+		background: none;
+
+		&.mat-mini-fab {
+			box-shadow: none;
+			font-size: 12px;
+		}	
+
+		span.mat-button-wrapper {
+			.fa {
+		    padding: 0 0 4px 1px;
+			}
+		}
+	}
+
+	// Icon styles
 	span.mat-button-wrapper {
 		line-height: 20px;
-		
-		.fa-plus {
+
+		.fa {
 			color: $main-gray-medium;
 			font-size: 20px;
 		}
 	}	
-
-	.svg-inline--fa {
-		width: 20px;
-		height: 20px;
-	}
 }
 
-.app-mini-fab-crossmarker.mat-mini-fab {
-	margin-left: 15px;
-	margin-top: 15px;
-	width: 35px;
-	height: 35px;
-	background: none;
-
-	&.mat-mini-fab {
-		box-shadow: none;
-		font-size: 12px;
-	}	
-
-	span.mat-button-wrapper {
-		padding: 0;
-
-		.fa-times {
-			color: $main-gray-medium;
-	    padding: 0 0 4px 1px;
-		}
-	}
-}
