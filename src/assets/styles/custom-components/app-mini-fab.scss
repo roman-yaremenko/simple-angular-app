@@ -13,8 +13,9 @@
 	span.mat-button-wrapper {
 		line-height: 20px;
 		
-		.ng-fa-icon {
+		.fa-plus {
 			color: $main-gray-medium;
+			font-size: 20px;
 		}
 	}	
 
@@ -23,4 +24,25 @@
 		height: 20px;
 	}
 }
- 
+
+.app-mini-fab-crossmarker.mat-mini-fab {
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 35px;
+	height: 35px;
+	background: none;
+
+	&.mat-mini-fab {
+		box-shadow: none;
+		font-size: 12px;
+	}	
+
+	span.mat-button-wrapper {
+		padding: 0;
+
+		.fa-times {
+			color: $main-gray-medium;
+	    padding: 0 0 4px 1px;
+		}
+	}
+}
